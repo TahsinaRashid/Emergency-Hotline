@@ -1,54 +1,53 @@
-### 6. Answer the following questions clearly:
+### Emergency Hotline
+A responsive web application for quick access to emergency service numbers in Bangladesh.
 
-**1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll**?
+### 📖 Project Overview
 
-Answer: **getElementById** uses only one id attributes to select an element.
-Whereas **geElementByClassName** that has a class to select every element.
-Then **querySelector** uses when we need to select a specific element but we do not have any id then we use this but it only selects the first matched element.
-Finally **querySelectorAll** means when we need to select all the element according to the selectors then we use it.
+Emergency Hotline is a responsive web app that provides a directory of essential emergency service numbers at your fingertips. Users can easily view, copy, and simulate calling services like Police, Fire Service, Ambulance and more. The app also tracks user interactions through hearts, coins and call history.
 
+### 💻 Technology Stack
 
+Frontend: HTML, CSS
 
+Styling: TailwindCSS, custom CSS
 
+Fonts: Google Fonts – Hind Madurai
 
+Icons & Images: Custom assets (PNG, SVG)
 
-**2. How do you create and insert a new element into the DOM**?
+### ⚡ Features
 
-Answer:
-To create and insert a new element into the Document Object Model (DOM), there are three steps to follow
+- Responsive service cards displaying name, English name, number, category and icon.
 
-1.Create the element: Use document.createElement().
+- Copy number functionality with counter.
 
-2.Modify the element: Set its content, add classes or set attributes.
+- Call simulation with coin deduction and call history logging.
 
-3.Insert the element: Add it to an existing parent element on the page using a method like appendChild() or insertBefore().
+- Heart/Like system for each service.
 
+- Call history sidebar with clear history button.
 
+- Gradient backgrounds, card shadows and hover effects for a polished UI.
 
-**3. What is Event Bubbling and how does it work?**
+- Fully responsive layout for mobile, tablet and desktop.
 
-Answer:Event bubbling is the natural way events work on a webpage. When we interact with an element (like clicking a button) that event doesn't just stay on that one element. It's like a chain reaction.
-The browser follows this process when an event occurs:
+### 📦 Dependencies
 
-1.Target Phase: The event reaches the element that was clicked (the event.target).
+- TailwindCSS (via CDN)
 
-2.Bubbling Phase: The event then moves from the target element up through each of its ancestors to the document object.
+- Google Fonts – Hind Madurai
 
+- No backend required; fully static site
 
-**4. What is Event Delegation in JavaScript? Why is it useful?**
+### 🚀 Getting Started (Local Setup)
 
-Answer:
-Event delegation is a technique where we add a single event listener to a parent element instead of adding a separate listener to each of its child elements.
-Event delegation is a powerful and efficient technique for two main reasons:
-1. Improved Performance
-2. Handles Dynamic Content
+- Clone the repository (https://github.com/TahsinaRashid/Emergency-Hotline)
+- Navigate to the project folder
+- cd emergency-hotline
+- Open index.html in your browser
+- No server required; just double-click index.html or use a live server extension in VSCode.
 
+### 🌐 Live Demo
 
-**5. What is the difference between preventDefault() and stopPropagation() methods?**
-
-Answer:
-preventDefault() prevents a form from submitting, a link from navigating or a checkbox from being checked. It stops an action.
-
-stopPropagation() prevents an event from "bubbling up" and triggering event listeners on parent elements.It stops a journey.
-
-
+Click here to view the live site
+https://emergency-hotline-by-prapti.netlify.app/
